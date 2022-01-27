@@ -1,15 +1,14 @@
 export function fizzBuzz(n) {
-    var three = n % 3;
-    var five = n % 5;
-    if (three === 0 && five === 0){
-        return 'FizzBuzz'
+    if (isNaN(n)) {
+        throw new Error('Not multiples of 3 or 5 !')
+    } else {
+        let result = '';
+        if (n % 3 === 0) {
+            result = 'fizz'
+        }
+        if (n % 5 === 0) {
+            result += 'buzz'
+        }
+        return result;
     }
-    if (three === 0){
-    return 'fizz'
-    }
-    if (five === 0){
-        return 'buzz'
-    }
-    throw new Error('Not multiples of 3 or 5 !')
-
 }
