@@ -8,7 +8,7 @@ test('should return buzz on multiples of 5', () => {
   expect(fizzBuzz(5)).toBe('buzz');
 });
 
-test('should return fizzBuzz on multiples of both', () => {;
+test('should return fizzBuzz on multiples of both', () => {
   expect(fizzBuzz(75)).toBe('fizzbuzz');
 });
 
