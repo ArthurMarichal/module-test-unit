@@ -7,7 +7,7 @@ export function fizzBuzz(n) {
             result = 'fizz';
         }
         if (n % 5 === 0) {
-            result += 'buzz;
+            result += 'buzz';
         }
         return result;
     }

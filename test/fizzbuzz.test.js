@@ -13,5 +13,5 @@ test('should return fizzBuzz on multiples of both', () => {
 });
 
 test('Should throw an error', () => {
-  expect( () => {fizzBuzz()}).toThrow('Not multiples of 3 or 5 !')
+  expect( () => {fizzBuzz()}).toThrow('ot multiples of 3 or 5 !')
 });
