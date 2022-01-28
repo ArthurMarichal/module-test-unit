@@ -9,9 +9,9 @@ test('should return buzz on multiples of 5', () => {
 });
 
 test('should return fizzBuzz on multiples of both', () => {
-  expect(fizzBuzz(75)).toBe('fizzbuzz');
+  expect(fizzBuzz(75)).toBe('fizzuzz');
 });
 
 test('Should throw an error', () => {
-
+  expect( () => {fizzBuzz()}).toThrow('Not multiples of 3 or 5 !')
 });
