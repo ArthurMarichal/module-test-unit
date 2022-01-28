@@ -27,3 +27,15 @@ test('test nombre to word', () => {
 test('test nombre to word', () => {
     expect(numberToWords(20)).toBe('vingt')
 });
+
+test('test nombre to word', () => {
+    expect(numberToWords(900000)).toBe('neuf cent mille')
+});
+
+test('test nombre to word', () => {
+    expect(numberToWords(1256)).toBe('mille deux cent cinquante-six')
+});
+
+test('test nombre to word', () => {
+    expect(numberToWords(3659)).toBe('trois mille six cent cinquante-neuf')
+});
