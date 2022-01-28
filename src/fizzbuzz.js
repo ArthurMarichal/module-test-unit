@@ -3,7 +3,7 @@ export function fizzBuzz(n) {
         throw new Error('Not multiples of 3 or 5 !');
     } else {
         let result = '';
-        if (n % 3 === 0) {
+        if (n % 3 === 0) {;
             result = 'fizz';
         }
         if (n % 5 === 0) {
